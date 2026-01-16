@@ -17,13 +17,15 @@ I implemented and compared two main algorithms:
 ## 📊 Evaluation
 To understand the models better, I used a **Confusion Matrix (Heatmap)** to visualize True Positives and False Positives.
 
+🖥️ Interactive GUI inside Jupyter Notebook
+This project includes a built-in Graphical User Interface (GUI) created with Tkinter. Unlike traditional scripts, the interface is integrated directly into the notebook for an interactive experience.
 
+How to run the GUI:
+Open the flower_classification.ipynb file.
 
-## 🖥️ Graphical User Interface (GUI)
-I built a desktop application using **Tkinter** that allows users to:
-* Input Sepal/Petal measurements.
-* Get instant predictions from both models simultaneously.
-* See alerts if the models disagree on the classification.
+Run all the code cells in sequence.
+
+The prediction window will automatically pop up after the last cell is executed.
 
 
 
